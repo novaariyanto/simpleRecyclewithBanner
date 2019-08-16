@@ -46,7 +46,6 @@ class MainActivity : AppCompatActivity(), HeroListener, BannerListener, ProductL
                         image = "https://s4.bukalapak.com/uploads/promo_partnerinfo_bloggy/5042/Bloggy_1.jpg"
                 )
         )
-
         val products = listOf(
                 Product(name = "Steam",
                         img = "http://www.stickpng.com/assets/images/58aefdc2c869e092af51ee6f.png"),
@@ -69,8 +68,6 @@ class MainActivity : AppCompatActivity(), HeroListener, BannerListener, ProductL
                 Product(name = "Starbucks",
                         img = "https://news.starbucks.com/uploads/images/Logo/_preview/Starbucks_Logo_Hi-res.jpg")
         )
-
-
 
         rvMain.apply {
             layoutManager = LinearLayoutManager(this@MainActivity)
